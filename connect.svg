@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="240" viewBox="0 0 1000 240" role="img" aria-labelledby="t d" font-family="'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">
+<title id="t">Let's Connect</title><desc id="d">Turning ideas into code, and code into solutions.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#090e22"/><stop offset=".55" stop-color="#0f1634"/><stop offset="1" stop-color="#0a1a2d"/></linearGradient>
+<filter id="blur" filterUnits="userSpaceOnUse" x="0" y="0" width="1000" height="240"><feGaussianBlur stdDeviation="52"/></filter>
+<linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".15"/><stop offset="1" stop-color="#fff" stop-opacity=".04"/></linearGradient>
+<linearGradient id="rim" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".55"/><stop offset=".4" stop-color="#fff" stop-opacity=".09"/><stop offset=".7" stop-color="#fff" stop-opacity=".05"/><stop offset="1" stop-color="#38bdf8" stop-opacity=".5"/></linearGradient>
+<linearGradient id="tile" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".10"/><stop offset="1" stop-color="#fff" stop-opacity=".03"/></linearGradient>
+<linearGradient id="tileRim" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".28"/><stop offset=".6" stop-color="#fff" stop-opacity=".06"/><stop offset="1" stop-color="#fff" stop-opacity=".12"/></linearGradient>
+<linearGradient id="shine" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".6"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<linearGradient id="ttl" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffffff"/><stop offset=".6" stop-color="#bae6fd"/><stop offset="1" stop-color="#38bdf8"/></linearGradient>
+<linearGradient id="wave" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#38bdf8"/><stop offset=".5" stop-color="#8b5cf6"/><stop offset="1" stop-color="#ec4899"/></linearGradient>
+<pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1.2" cy="1.2" r=".9" fill="#fff" fill-opacity=".07"/></pattern>
+<clipPath id="clip"><rect width="1000" height="240" rx="28"/></clipPath>
+<style>.cur{animation:blink 1s steps(1) infinite}@keyframes blink{50%{fill-opacity:0}}text{white-space:pre}</style>
+</defs>
+<g clip-path="url(#clip)">
+<rect width="1000" height="240" fill="url(#bg)"/>
+<g filter="url(#blur)"><circle cx="150" cy="90" r="160" fill="#38bdf8" fill-opacity="0.5"><animate attributeName="cx" values="150;270;150" dur="18s" repeatCount="indefinite"/><animate attributeName="cy" values="90;120;90" dur="23.4s" repeatCount="indefinite"/></circle><circle cx="850" cy="100" r="170" fill="#7c3aed" fill-opacity="0.55"><animate attributeName="cx" values="850;730;850" dur="21s" repeatCount="indefinite"/><animate attributeName="cy" values="100;130;100" dur="27.3s" repeatCount="indefinite"/></circle><circle cx="500" cy="230" r="110" fill="#ec4899" fill-opacity="0.3"><animate attributeName="cx" values="500;580;500" dur="16s" repeatCount="indefinite"/><animate attributeName="cy" values="230;210;230" dur="20.8s" repeatCount="indefinite"/></circle></g>
+<rect width="1000" height="240" fill="url(#dots)"/>
+<g opacity=".55"><path d="M-250 196 Q-125 170 0 196 T250 196 T500 196 T750 196 T1000 196 T1250 196 V240 H-250 Z" fill="url(#wave)" fill-opacity=".35"><animateTransform attributeName="transform" type="translate" values="0 0;250 0" dur="9s" repeatCount="indefinite"/></path><path d="M-250 212 Q-125 192 0 212 T250 212 T500 212 T750 212 T1000 212 T1250 212 V240 H-250 Z" fill="url(#wave)" fill-opacity=".5"><animateTransform attributeName="transform" type="translate" values="250 0;0 0" dur="7s" repeatCount="indefinite"/></path></g>
+</g>
+<rect x="20" y="20" width="960" height="176" rx="26" fill="url(#glass)" stroke="url(#rim)" stroke-width="1.2"/><rect x="46" y="20.6" width="908" height="1.2" fill="url(#shine)"/><rect x="482" y="42" width="36" height="36" rx="11" fill="#38bdf8" fill-opacity=".13" stroke="#38bdf8" stroke-opacity=".38"/><g transform="translate(491 51) scale(0.75)" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></g><text x="500" y="118" font-size="30" font-weight="800" fill="url(#ttl)" text-anchor="middle" letter-spacing="-0.5">Let's Connect</text><text x="500" y="150" font-size="16" font-weight="400" fill="#cbd5e1" text-anchor="middle" font-style="italic">"Turning ideas into code, and code into solutions."</text><text x="500" y="176" font-size="12.5" font-weight="400" fill="#94a3b8" text-anchor="middle">Always open to new ideas, collaborations and open-source work.</text>
+</svg>

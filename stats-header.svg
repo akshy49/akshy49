@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="88" viewBox="0 0 1000 88" role="img" aria-labelledby="t d" font-family="'Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif">
+<title id="t">GitHub Stats</title><desc id="d">GitHub Stats</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#090e22"/><stop offset=".55" stop-color="#0f1634"/><stop offset="1" stop-color="#0a1a2d"/></linearGradient>
+<filter id="blur" filterUnits="userSpaceOnUse" x="0" y="0" width="1000" height="88"><feGaussianBlur stdDeviation="52"/></filter>
+<linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".15"/><stop offset="1" stop-color="#fff" stop-opacity=".04"/></linearGradient>
+<linearGradient id="rim" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".55"/><stop offset=".4" stop-color="#fff" stop-opacity=".09"/><stop offset=".7" stop-color="#fff" stop-opacity=".05"/><stop offset="1" stop-color="#38bdf8" stop-opacity=".5"/></linearGradient>
+<linearGradient id="tile" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".10"/><stop offset="1" stop-color="#fff" stop-opacity=".03"/></linearGradient>
+<linearGradient id="tileRim" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".28"/><stop offset=".6" stop-color="#fff" stop-opacity=".06"/><stop offset="1" stop-color="#fff" stop-opacity=".12"/></linearGradient>
+<linearGradient id="shine" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".6"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<linearGradient id="ttl" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffffff"/><stop offset=".6" stop-color="#bae6fd"/><stop offset="1" stop-color="#38bdf8"/></linearGradient>
+<linearGradient id="wave" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#38bdf8"/><stop offset=".5" stop-color="#8b5cf6"/><stop offset="1" stop-color="#ec4899"/></linearGradient>
+<pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1.2" cy="1.2" r=".9" fill="#fff" fill-opacity=".07"/></pattern>
+<clipPath id="clip"><rect width="1000" height="88" rx="24"/></clipPath>
+<style>.cur{animation:blink 1s steps(1) infinite}@keyframes blink{50%{fill-opacity:0}}text{white-space:pre}</style>
+</defs>
+<g clip-path="url(#clip)">
+<rect width="1000" height="88" fill="url(#bg)"/>
+<g filter="url(#blur)"><circle cx="120" cy="40" r="80" fill="#38bdf8" fill-opacity="0.5"><animate attributeName="cx" values="120;220;120" dur="14s" repeatCount="indefinite"/><animate attributeName="cy" values="40;50;40" dur="18.2s" repeatCount="indefinite"/></circle><circle cx="880" cy="60" r="90" fill="#7c3aed" fill-opacity="0.55"><animate attributeName="cx" values="880;780;880" dur="16s" repeatCount="indefinite"/><animate attributeName="cy" values="60;50;60" dur="20.8s" repeatCount="indefinite"/></circle></g>
+<rect width="1000" height="88" fill="url(#dots)"/>
+
+</g>
+<rect x="20" y="16" width="960" height="56" rx="22" fill="url(#glass)" stroke="url(#rim)" stroke-width="1.2"/><rect x="42" y="16.6" width="916" height="1.2" fill="url(#shine)"/><rect x="40" y="26" width="36" height="36" rx="11" fill="#38bdf8" fill-opacity=".13" stroke="#38bdf8" stroke-opacity=".38"/><g transform="translate(49 35) scale(0.75)" fill="none" stroke="#38bdf8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></g><text x="88" y="51" font-size="20" font-weight="700" fill="#f8fafc">GitHub Stats</text><text x="960" y="49" font-size="12" font-weight="400" fill="#94a3b8" text-anchor="end" font-family="'Cascadia Code','Fira Code',Consolas,'SF Mono',Menlo,monospace">04 — activity</text>
+</svg>
